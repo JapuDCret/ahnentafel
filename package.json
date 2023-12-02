@@ -1,0 +1,20 @@
+{
+  "name": "ahnentafel",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "CHOKIDAR_USEPOLLING=true bunx --bun vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vite-plugin-live-reload": "^3.0.3"
+  },
+  "dependencies": {
+    "@types/fabric": "^5.3.6",
+    "fabric": "^5.3.0"
+  }
+}
